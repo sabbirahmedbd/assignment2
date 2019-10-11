@@ -1,0 +1,136 @@
+section{
+    color:midnightblue;
+    background-color:;
+        font-size: 20px;
+    }
+body{
+    
+    margin:0;
+    
+}
+section {
+    
+ background-image:url(../image/bg2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right bottom;
+    background-size: 60%;
+
+}
+.container{
+    color: #192548;
+    width: 75%;
+    margin: auto;
+    padding-top: 60px;
+}
+header{
+    background-color: darkcyan;
+     width:90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+div{   
+    width: 20%;
+ float:left;
+    background-color:;
+    
+}
+
+nav{ 
+    width: 80%;
+    float: right;
+    background-color:yellowgreen;
+}
+.logo{
+       color: firebrick;
+    text-decoration:none;
+    font-size: 25px;
+    font width: 900;
+    font font-weight:50px;
+     text-transform: uppercase;
+    
+}
+.logo:hover {
+    color:goldenrod;
+ul{
+   background-color: ;
+    padding: 0;
+    margin: 0;
+}
+    li{
+         list-style-type: none;
+    }
+    
+}
+nav ul{
+    
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background color: chartreuse;
+    border-radius: 38px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    text text-transform: uppercase;
+    padding: 10px;
+   display: block;
+    font-size: 16px;
+    
+}
+nav ul li a:hover  {
+   
+    color: black;
+    background-color:whitesmoke;
+}
+
+.button {
+    background-color:#9ACD32 ;
+    color:blue;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color:whitesmoke;
+    color:#9ACD32;
+
+}
+.header-bottom-left {
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: blue;
+}
+
+.header-bottom-left h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    color: crimson;
+}
+
+.header-bottom-left p {
+    padding: 20px 0;
+    color: #000000;
+    text-align: justify;
+}
+
+.header-bottom-left .button {
+    transition: .3s;
+}
+
